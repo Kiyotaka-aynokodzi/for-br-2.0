@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    line-height: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 180px;
+    margin: 0 auto;
+}
+
+header .logo {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+header .Main-data {
+    display: flex;
+    justify-content: center;
+    padding-top: 38px;
+    font-size: 20px;
+}
+
+
+main .News {
+    max-width: 700px;
+    padding-top: 60px;
+    display: flex;
+    margin: 0 auto;
+}
+
+main .picture {
+    width: 100%;
+    height: 100%;
+    height: 260px;
+}
+
+main .picture.str {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+main .Arrow {
+    margin-left: 20px;
+    margin-top: 1px;
+}
+
+main .Main-text {
+    width: 70%;
+    margin-left: 20px;
+}
+
+main .Data {
+    font-size: 20px;
+}
+
+main .Supreme-version-2 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+main .information {
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+main .link-archive {
+    padding-top: 20px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(255, 0, 0);
+}
+
+main .text h1 {
+    font-size: 25px;
+}
+
+main .str {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+footer {
+    padding-top: 125px;
+    padding-bottom: 60px;
+}
+
+footer .Footer-links {
+    display: flex;
+    justify-content: center;
+}
+
+.Links:hover {
+    background-color: rgb(255, 0, 0);
+    align-items: flex-start;
+}
+
+footer .Footer-links {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+footer .Links {
+    margin: 15px;
+}
+
+@media screen and (max-width: 414px) {
+    header {
+        padding-top: 60px;
+    }
+
+    header{
+        width: 100%;
+        max-width: auto;
+    }
+
+    .News {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 70px;
+    }
+
+    .Main-text {
+        width: auto;
+    }
+
+    .Main-text {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .str {
+        margin: 0 auto;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .text-link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .information {
+
+        font-size: 15px;
+}
+
+    .Data {
+
+        font-size: 15px;
+}
+
+    .text h1 {
+
+        font-size: 20px;
+    }
+
+}
